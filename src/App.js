@@ -43,7 +43,7 @@ export default function App(props) {
   }
 
   function searchGeo(position) {
-    console.log(position)
+    console.log(position);
     let latitude = position.coords.latitude;
     let longitude = position.coords.longitude;
     let apiKey = "6f1066b52fb74e7c4c41b08e58f115f4";
@@ -90,7 +90,7 @@ export default function App(props) {
                         type="button"
                       >
                         <i className="fa-solid fa-location-dot"></i>
-                       📍
+                        📍
                       </button>
                     </div>
                   </form>
@@ -110,11 +110,11 @@ export default function App(props) {
           <a
             className="link-code"
             target="blank"
-            href="https://github.com/Tatyana787/react-homework-week4"
+            href="https://github.com/ShtelmakhT/React_weather_application"
           >
             {"Open-source code "}
           </a>
-          by Tanya Stadnyk
+          by Tetiana Shtelmakh
         </div>
       </div>
     );
